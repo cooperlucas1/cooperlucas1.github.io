@@ -13,14 +13,14 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 margin-top: 10%;
-height: auto;
+height: 100px;
 max-width: 100px;
 }
 .profile-name {
 font-size: 30px;
 text-align: center;
 padding: 30px;
-color: #FF9B37;
+color: #FF6633;
 }
 .links {
 text-align: center;
@@ -36,7 +36,7 @@ border-radius: 40px;
 }
 a {
 text-decoration: none;
-color: maroon;
+color: #FF6633;
 transition: color 1s;
 }
 .bottom-text {
