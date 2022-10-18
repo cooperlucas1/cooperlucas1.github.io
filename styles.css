@@ -17,8 +17,10 @@ height: auto;
 max-width: 100px;
 }
 .profile-name {
+font-size: 30px;
 text-align: center;
 padding: 30px;
+color: #FF9B37
 }
 .links {
 text-align: center;
