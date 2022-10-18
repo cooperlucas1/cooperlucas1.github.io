@@ -20,7 +20,7 @@ max-width: 100px;
 font-size: 30px;
 text-align: center;
 padding: 30px;
-color: #FF9B37
+color: #FF9B37;
 }
 .links {
 text-align: center;
@@ -36,7 +36,7 @@ border-radius: 40px;
 }
 a {
 text-decoration: none;
-color: white;
+color: maroon;
 transition: color 1s;
 }
 .bottom-text {
