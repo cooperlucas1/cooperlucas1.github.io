@@ -30,7 +30,7 @@ text-align: center;
 margin-top: 20px;
 padding: 20px;
 border: 1px solid black;
-border-width: 2px;
+border-width: 1px;
 width: 275px;
 display: block;
 margin-left: auto;
@@ -63,4 +63,5 @@ a:hover {
 color: #000;
 background: rgba(255, 255, 255, .75);
 transform: scale(1.1);
+text-shadow: none;
 }
