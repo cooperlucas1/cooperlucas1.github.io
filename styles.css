@@ -1,9 +1,9 @@
 body {
 background: url("assets/background.jpg");
+background-size: cover;
 color: #fff;
-font-family: 'IBM Plex Mono';
-font-size: 20px;
-letter-spacing: 2px;
+
+
 }
 img {
 border-radius: 50%;
@@ -16,9 +16,11 @@ margin-right: auto;
 margin-top: 10%;
 height: 200px;
 max-width: 200px;
+
 }
 .profile-name {
-font-size: 30px;
+font-size: 40px;
+font-weight: bold;
 text-align: center;
 padding: 30px;
 color: #FF6633;
@@ -29,16 +31,26 @@ margin-top: 20px;
 padding: 20px;
 border: 1px solid black;
 border-width: 2px;
-width: 290px;
+width: 275px;
 display: block;
 margin-left: auto;
 margin-right: auto;
 border-radius: 40px;
+color: #FF6633;
+text-decoration: none;
+font-family: 'IBM Plex Mono';
+font-size: 25px;
+letter-spacing: 2px;
+font-weight: bold;
+font-style: normal;
+background: rgba(255, 255, 255, .1);
+text-shadow: 2px 2px 7px #000000;
+}
+
+
 }
 a {
-text-decoration: none;
-color: #FF6633;
-transition: color 1s;
+transition: color .5s;
 
 }
 .bottom-text {
@@ -49,6 +61,6 @@ font-weight: bold;
 }
 a:hover {
 color: #000;
-background: #fff;
-opacity: .5;
+background: rgba(255, 255, 255, .75);
+transform: scale(1.1);
 }
