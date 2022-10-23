@@ -45,8 +45,11 @@ font-weight: bold;
 font-style: normal;
 background: rgba(255, 255, 255, .1);
 text-shadow: 2px 2px 7px #000000;
+transition: transform 250ms ease;
 }
-
+.links:hover {
+  transform: scale(1.1);
+}
 
 }
 a {
@@ -62,6 +65,6 @@ font-weight: bold;
 a:hover {
 color: #000;
 background: rgba(255, 255, 255, .75);
-transform: scale(1.1);
 text-shadow: none;
+
 }
