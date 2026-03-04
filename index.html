@@ -1,29 +1,129 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="styles.css">
-<!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<title>Cooper Lucas</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cooper Lucas | Cinematic Landing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Syne:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient">
+      <div class="orb orb-a"></div>
+      <div class="orb orb-b"></div>
+      <div class="grid"></div>
+    </div>
 
+    <main class="site-shell">
+      <section class="hero reveal" aria-label="Profile">
+        <p class="eyebrow">Digital Presence</p>
+        <h1>Cooper Lucas</h1>
+        <p class="hero-copy">
+          Cinematic landing concept with scroll choreography, Apple-style pacing,
+          and focused link-tree utility.
+        </p>
+      </section>
 
-<!-- Profile picture-->
-<img src="assets/CD5_9222.JPEG" alt="profile picture" class="profile-picture">
-<!-- Profile name-->
-<div class="profile-name">Cooper Lucas</div>
-<!-- Links-->
-<a href="assets/Cooper Lucas.vcf" target="_blank" class="links">Contact</a>
-<a href="https://linkedin.com/in/cooper-lucas" target="_blank" class="links">LinkedIn</a>
-<a href="https://instagram.com/cooplucas" target="_blank" class="links">Instagram</a>
-<a href="assets/Resume - Cooper Lucas 2022.pdf" target="_blank" class="links">Resume</a>
-<a href="https://music.apple.com/us/playlist/in-a-good-mood/pl.u-4JomXKDIaqENxZe" class="links">Music</a>
-<a href="#" class="links">Portfolio</a>
+      <section class="contact-card reveal" aria-label="Contact card">
+        <img src="assets/CD5_9222.JPEG" alt="Portrait of Cooper Lucas" class="avatar" />
 
+        <div class="card-text">
+          <p class="card-title">Contact Card</p>
+          <p class="card-meta">Chicago, IL</p>
+        </div>
 
-<!-- Logo -->
-<div class="bottom-text">***</div>
-</body>
+        <div class="card-actions">
+          <a href="assets/Cooper Lucas.vcf" class="action-pill" target="_blank" rel="noreferrer">
+            Save Contact
+          </a>
+          <a
+            href="assets/Cooper Lucas - September 2023 Resume.pdf"
+            class="action-pill muted"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Resume
+          </a>
+        </div>
+      </section>
+
+      <section class="links reveal" aria-label="Primary links">
+        <a href="https://linkedin.com/in/cooper-lucas" target="_blank" rel="noreferrer" class="link-tile">
+          <span class="tile-label">LinkedIn</span>
+          <span class="tile-note">Professional updates and experience</span>
+        </a>
+
+        <a href="#portfolio" class="link-tile">
+          <span class="tile-label">Portfolio</span>
+          <span class="tile-note">Scroll down for the animated preview</span>
+        </a>
+
+        <a href="https://instagram.com/cooplucas" target="_blank" rel="noreferrer" class="link-tile">
+          <span class="tile-label">Instagram</span>
+          <span class="tile-note">Lifestyle and personal highlights</span>
+        </a>
+      </section>
+    </main>
+
+    <section class="cinematic-section" aria-label="Experience timeline">
+      <div class="cinematic-pin" id="cinematicPin">
+        <div class="timeline-progress">
+          <span class="timeline-bar" id="timelineBar"></span>
+        </div>
+
+        <div class="timeline-copy">
+          <p class="eyebrow">Experience</p>
+          <h2 id="timelineTitle">Identity First</h2>
+          <p id="timelineBody">
+            The page opens with a high-contrast personal identity and a clean route to your contact card.
+          </p>
+        </div>
+
+        <div class="project-stage" id="projectStage">
+          <article class="project-card active" data-step="0">
+            <p class="project-tag">Step 1</p>
+            <h3>Profile + Contact</h3>
+            <p>A direct first impression with immediate access to save your contact details.</p>
+          </article>
+
+          <article class="project-card" data-step="1">
+            <p class="project-tag">Step 2</p>
+            <h3>Professional Link</h3>
+            <p>LinkedIn gets prominent placement as your primary external destination.</p>
+          </article>
+
+          <article class="project-card" data-step="2">
+            <p class="project-tag">Step 3</p>
+            <h3>Portfolio Story</h3>
+            <p>Project previews can expand into case studies with richer visual narratives.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio-tease reveal" id="portfolio" aria-label="Portfolio teaser">
+      <div class="portfolio-wrap">
+        <div>
+          <p class="eyebrow">Soon</p>
+          <h2>Portfolio in Progress</h2>
+          <p>
+            Swap these mock cards with real projects later. Layout and motion are already prepared for that upgrade.
+          </p>
+        </div>
+
+        <div class="mock-grid">
+          <article class="mock-item reveal">Case Study A</article>
+          <article class="mock-item reveal">Case Study B</article>
+          <article class="mock-item reveal">Case Study C</article>
+        </div>
+      </div>
+    </section>
+
+    <script src="myScript.js"></script>
+  </body>
 </html>
